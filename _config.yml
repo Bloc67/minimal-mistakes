@@ -276,6 +276,16 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  tvseries:
+    output: true
+    permalink: /:collection/:path/
+  artwork:
+    output: true
+    permalink: /:collection/:path/
+
+
 # Defaults
 defaults:
   # _posts
@@ -286,6 +296,37 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _tvseries
+  - scope:
+      path: ""
+      type: tvseries
+    values:
+      layout: single
+      read_time: true
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "tvseries"
+  # _artwork
+  - scope:
+      path: ""
+      type: artwork
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      comments: false
+      sidebar:
+        nav: "artwork"
+
