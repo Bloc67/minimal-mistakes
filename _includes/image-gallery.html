@@ -1,0 +1,36 @@
+<style>
+  .image-gallery {
+    overflow: auto; 
+    margin-left: -1%!important;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(120px,1fr));   
+    grid-gap: 1rem;    
+
+    }
+  .image-gallery a {display: block; text-align: center; text-decoration: none!important;
+        padding-top: 125%; background-repeat: norepeat; background-size: cover;    
+    }
+  .image-gallery a span {font-size: 0.8rem; display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
+  .image-gallery a img {
+    width: 100%; display: block;
+    }
+</style>
+
+<div class="image-gallery">
+{% for file in site.static_files %}
+  {% if file.path contains include.folder %}
+    {% if file.extname == '.jpg' or 
+      file.extname == '.jpeg' or 
+      file.extname == '.JPG' or 
+      file.extname == '.JPEG' %}
+
+      {% assign filenameparts = file.path | split: "/" %}
+      {% assign filename = filenameparts | last | replace: file.extname,"" %}
+      
+      <a href="{{ file.path }}" title="{{ filename }}" style="background-image: url(/assets/images/thumbs/{{ filename }}_300.jpg);">
+        <img src="" alt="" />      
+      </a>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+</div>
