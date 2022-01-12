@@ -7,6 +7,6 @@ main:
   # - title: "Sample Posts"
   #   url: /year-archive/
   - title: "Art"
-    url: /categories/#art
+    url: /art/
   #- title: "Reviews"
-  #  url: /tvseries/
+  #  url: /tv/
