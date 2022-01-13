@@ -1,9 +1,7 @@
 ---
-title: First post
+title: So, first post
 layout: single
-categories:
-- info
+tag: info
 ---
 
-# So, first post
-[Jekyll](https://jekyllrb.com/) is a pure programming language meant for among others, CMS work. Its built on [Ruby](https://www.ruby-lang.org/en/) and its gems and it now what I am using on this blog.
+[Jekyll](https://jekyllrb.com/) is a pure programming language meant for among others, CMS work. Its built on [Ruby](https://www.ruby-lang.org/en/) and its what I am currently using on this blog.
