@@ -7,7 +7,6 @@
 *.sublime-workspace
 
 # Ruby Gem
-*.gem
 .bundle
 Gemfile.lock
 **/vendor/bundle
