@@ -32,7 +32,7 @@
 ////////////////////////
 
 $mfp-overlay-color:                   #0b0b0b !default;
-$mfp-overlay-opacity:                 0.8 !default;
+$mfp-overlay-opacity:                 1 !default;
 $mfp-shadow:                          0 0 8px rgba(0, 0, 0, 0.6) !default; // shadow on image or iframe
 $mfp-popup-padding-left:              8px !default; // Padding from left and from right side
 $mfp-popup-padding-left-mobile:       6px !default; // Same as above, but is applied when width of window is less than 800px
@@ -85,10 +85,6 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
   position: fixed;
 
   background: $mfp-overlay-color;
-  opacity: $mfp-overlay-opacity;
-  @if $mfp-IE7support {
-    filter: unquote("alpha(opacity=#{$mfp-overlay-opacity*100})");
-  }
 }
 
 // Wrapper for popup
@@ -462,7 +458,7 @@ button {
   img {
     &.mfp-img {
       width: auto;
-      max-width: 100%;
+      max-width: 600px;
       height: auto;
       display: block;
       line-height: 0;
