@@ -1,10 +1,10 @@
 minimal_mistakes_skin: dark
-locale: en-US
+locale: no-NO
 title: B.H.Kristiansen
 title_separator: '-'
 subtitle: null
 name: B.H.Kristiansen
-description: Personal blog site
+description: Personlig blogg
 url: null
 baseurl: null
 repository: null
@@ -80,16 +80,9 @@ author:
   location: 'Molde, Norway'
   email: null
   links:
-    - label: Email
+    - label: Epostl
       icon: fas fa-fw fa-envelope-square
       url: 'mailto:post@bhkristiansen.com'
-    - label: Website
-      icon: fas fa-fw fa-link
-      url: 'https://bjornhkristiansen.com'
-    - label: Twitter
-      icon: fab fa-fw fa-twitter-square
-    - label: Facebook
-      icon: fab fa-fw fa-facebook-square
     - label: GitHub
       icon: fab fa-fw fa-github
       url: 'https://github.com/bloc67'
@@ -167,6 +160,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-admin 
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap

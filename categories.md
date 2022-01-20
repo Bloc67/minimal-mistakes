@@ -1,5 +1,5 @@
 ---
-title: Categories
+title: Kategorier
 layout: categories
 ---
 
