@@ -1,5 +1,5 @@
 ---
-title: Art
+title: Kunstverk 
 layout: collection
 permalink: /art/
 collection: art

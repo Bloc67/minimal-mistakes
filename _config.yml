@@ -1,10 +1,10 @@
 minimal_mistakes_skin: dark
-locale: en-US
+locale: no-NB
 title: B.H.Kristiansen
 title_separator: '-'
 subtitle: null
 name: B.H.Kristiansen
-description: Personal blog site
+description: Personlig blogg
 url: null
 baseurl: null
 repository: null
@@ -80,7 +80,7 @@ author:
   location: 'Molde, Norway'
   email: null
   links:
-    - label: Email
+    - label: Epostl
       icon: fas fa-fw fa-envelope-square
       url: 'mailto:post@bhkristiansen.com'
     - label: Website
