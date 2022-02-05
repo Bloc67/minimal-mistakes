@@ -157,6 +157,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-admin
+  - jekyll-feed
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
