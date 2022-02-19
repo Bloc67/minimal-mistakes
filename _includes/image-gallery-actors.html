@@ -1,0 +1,45 @@
+<style>
+  .image-gallery {
+    overflow: auto;
+    width: 102%; 
+    margin-left: -1%!important;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;    
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));   
+    grid-gap: 1rem;    
+
+    }
+  .image-gallery a {display: block; text-align: center; text-decoration: none!important;
+        padding-top: 140%; background-repeat: norepeat; background-size: cover;    
+    }
+  .image-gallery a > span {font-size: 0.8rem; display: inline-block; padding: 0; background: #0008; width: 100%; padding: 3px 0; margin: 0; white-space: nowrap;}
+  .image-gallery a span::first-letter { text-transform: uppercase; }
+  .image-gallery a img {
+    width: 100%; display: block;
+    }
+</style>
+
+<div class="image-gallery">
+{% for file in site.static_files %}
+  {% if file.path contains include.folder %}
+    {% if file.extname == '.jpg' %}
+
+      {% assign filenameparts = file.path | split: "/" %}
+      {% assign filename = filenameparts | last | replace: file.extname,"" %}
+
+      {% if filename != 'logo' and filename != 'poster' %}
+      
+        {% assign actorparts = filename | split: "_" %}
+        {% assign actor = actorparts | first | replace: "-"," " %}
+        {% assign charachter = actorparts | last %}
+      
+          <a href="{{ file.path }}" title="{{ actor }}" style="background-image: url({{ file.path }});">
+           <img src="" alt="" />
+           <span><strong>{{charachter}}</strong><br>({{ actor }})</span>      
+          </a>
+      {% endif %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+</div>

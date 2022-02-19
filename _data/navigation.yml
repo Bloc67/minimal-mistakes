@@ -4,4 +4,11 @@ main:
     url: /about/
   - title: "Galleri"
     url: /art/
-
+sidebar-kunst:
+  - title: "Tagger"
+    children:
+      - title: "Info"
+      - url: /tags/#info
+      - title: "Oljemaling"
+      - url: /tags/#oljemaling
+    

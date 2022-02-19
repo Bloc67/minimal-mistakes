@@ -355,3 +355,32 @@ input[type="submit"],
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+
+/* mine */
+.left-align {
+    max-width: 200px;
+    float: left;
+    margin: 0 2rem 1rem 0; 
+}
+.mygrid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+dl.tvinfo {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 0 1rem;
+}
+dl.tvinfo dt, dl.tvinfo dd {
+    clear: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+dl.tvinfo dd {
+}
+
