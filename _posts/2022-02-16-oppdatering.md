@@ -1,9 +1,11 @@
 ---
 title: Det gyldne snitt
 layout: single
-tag: oljemaling
+tags: 
+  - oljemaling
+  - "2022"
 sidebar:
-  title: "Innhold"
+  title: Oversikt
   nav: sidebar-kunst
 header:
   teaser: "/assets/images/2022-02-16/IMG_20220206_183247463_small.png"

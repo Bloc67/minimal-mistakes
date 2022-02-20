@@ -360,6 +360,8 @@ body {
     margin-top: 2em;
   }
 }
+.taxonomy__section { display: none; }
+.taxonomy__section:target { display: block !important; }
 
 .taxonomy__title {
   margin-bottom: 0.5em;

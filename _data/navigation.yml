@@ -8,7 +8,23 @@ sidebar-kunst:
   - title: "Tagger"
     children:
       - title: "Info"
-      - url: /tags/#info
+        url: /tags/#info
       - title: "Oljemaling"
-      - url: /tags/#oljemaling
-    
+        url: /tags/#oljemaling
+  - title: "Tidsrom"
+    children:
+      - title: "2022"
+        url: /tags/#2022
+sidebar-tv:
+  - title: "Tema"
+    children:
+      - title: "TVserier"
+        url: /tags/#tvserie
+  - title: "Kategorier"
+    children:
+      - title: "Fantasy"
+        url: /tags/#fantasy
+  - title: "Opprinnelse"
+    children:
+      - title: "Britisk"
+        url: /tags/#british 
