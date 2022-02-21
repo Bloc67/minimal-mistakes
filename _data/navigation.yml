@@ -22,9 +22,15 @@ sidebar-tv:
         url: /tags/#tvserie
   - title: "Kategorier"
     children:
-      - title: "Fantasy"
+      - title: "Fantasi"
         url: /tags/#fantasy
+      - title: "Sci-Fi"
+        url: /tags/#scifi
+      - title: "Krim"
+        url: /tags/#crime
   - title: "Opprinnelse"
     children:
       - title: "Britisk"
         url: /tags/#british 
+      - title: "Amerikansk"
+        url: /tags/#american 
