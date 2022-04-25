@@ -11,11 +11,15 @@
 {% endif %}
 
 <div class="{{ include.type | default: 'list' }}__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+  <article class="archive__item clearme" itemscope itemtype="https://schema.org/CreativeWork">
     {% if teaser %}
+      {% if include.type == 'grid' %}
       <div class="archive__item-teaser">
-        <img src="{{ teaser | relative_url }}" alt="">
+         <img src="{{ teaser | relative_url }}" alt="">
       </div>
+      {% else %}
+      <img src="{{ teaser | relative_url }}" class="bloggy-img" alt="">
+      {% endif %}
     {% endif %}
     <h2 class="archive__item-title no_toc" itemprop="headline">
       {% if post.link %}
@@ -25,7 +29,7 @@
       {% endif %}
     </h2>
     {% include page__meta.html type=include.type %}
-    {% if post.excerpt and include.type != 'grid' %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+    {% if post.excerpt and include.type != 'grid' %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html }}</p>{% endif %}
   </article>
 </div>
 

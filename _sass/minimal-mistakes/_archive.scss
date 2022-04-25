@@ -423,3 +423,14 @@
 		display: inline-block;
 	}
 }
+
+img.bloggy-img {
+  max-width: 25%;
+  margin: 2rem 2rem 2rem 0;
+  display: block;
+  float: left;
+}
+.clearme {
+  overflow: hidden;
+  clear: both;
+}
