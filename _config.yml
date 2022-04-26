@@ -181,6 +181,7 @@ collections:
     output: true
     permalink: '/:collection/:path/'
     order:
+        - art2022.md
         - art2021.md
         - art2020.md
         - art2019.md
