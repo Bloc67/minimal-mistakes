@@ -11,6 +11,7 @@ sidebar:
   nav: sidebar-tv
 header:
   teaser: "/assets/tv/person-of-interest/poster.jpg"
+classes: wide
 ---
 <a href="/assets/tv/person-of-interest/poster.jpg">
     <img src="/assets/tv/person-of-interest/poster.jpg" alt="Person of interest" class="left-align" />

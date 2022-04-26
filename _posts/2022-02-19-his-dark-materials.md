@@ -10,6 +10,7 @@ sidebar:
   nav: sidebar-tv
 header:
   teaser: "/assets/tv/his-dark-materials/poster.jpg"
+classes: wide
 ---
 <a href="/assets/tv/his-dark-materials/poster.jpg">
     <img src="/assets/tv/his-dark-materials/poster.jpg" alt="His Dark Materials" class="left-align" />
