@@ -1,5 +1,6 @@
 ---
-title: Tags
+title: Tagger
 layout: tags
+classes: wide
 ---
 

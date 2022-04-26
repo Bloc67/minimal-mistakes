@@ -2,6 +2,10 @@
 title: Digitalt 2001-2015
 header:
   teaser: "/assets/images/thumbs/After_300.jpg"
+sidebar:
+  title: "Innhold"
+  nav: sidebar-art
+classes: wide
 ---
 
 {% include image-gallery.html folder="/assets/images/digital/2015" %}

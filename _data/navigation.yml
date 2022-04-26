@@ -15,6 +15,23 @@ sidebar-kunst:
     children:
       - title: "2022"
         url: /tags/#2022
+sidebar-art:
+  - title: "Gallerier"
+    children:
+      - title: "2022"
+        url: /art/art2022
+      - title: "2021"
+        url: /art/art2021
+      - title: "2020"
+        url: /art/art2020
+      - title: "2019"
+        url: /art/art2019
+      - title: "2018"
+        url: /art/art2018
+      - title: "2017"
+        url: /art/art2017
+      - title: "Digitale"
+        url: /art/digitale-verk-2001-2015
 sidebar-tv:
   - title: "Tema"
     children:

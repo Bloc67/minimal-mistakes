@@ -151,7 +151,7 @@
 
 .entries-grid, .grid__wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(290px,1fr));
   grid-gap: 0.5rem;
 }
 
@@ -191,7 +191,7 @@
     }
 
     @include breakpoint($medium) {
-      max-height: 120px;
+      max-height: 240px;
     }
   }
 }
