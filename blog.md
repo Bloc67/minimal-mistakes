@@ -6,4 +6,6 @@ sidebar:
 author_profile: true
 entries_layout: list
 classes: wide
+permalink: "/blogg/"
 ---
+

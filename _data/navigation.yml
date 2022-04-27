@@ -1,9 +1,11 @@
 # main links
 main:
   - title: "Om"
-    url: /about/
+    url: /om/
   - title: "Galleri"
     url: /art/
+  - title: "Blogg"
+    url: /blogg/
 sidebar-kunst:
   - title: "Tagger"
     children:
