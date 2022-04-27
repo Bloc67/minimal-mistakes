@@ -33,7 +33,7 @@ sidebar-art:
       - title: "Digitale"
         url: /art/digitale-verk-2001-2015
 sidebar-tv:
-  - title: "Tema"
+  - title: "Kategorier"
     children:
       - title: "TVserier"
         url: /tags/#tvserie
