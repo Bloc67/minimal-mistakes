@@ -5,13 +5,14 @@ title_separator: '-'
 subtitle: null
 name: B.H.Kristiansen
 description: Personlig blogg
-url: null
+url: https:/bjornhkristiansen.com
 baseurl: null
-repository: null
+repository: "bloc67/minimal-mistakes"
 teaser: null
 logo: null
 masthead_title: null
 words_per_minute: 200
+breadcrumbs: true
 comments:
   provider: null
   disqus:
@@ -74,7 +75,7 @@ analytics:
     tracking_id: null
     anonymize_ip: null
 author:
-  name: BH
+  name: Bjørn H Kristiansen
   avatar: null
   bio: ''
   email: null
@@ -148,8 +149,6 @@ sass:
   sass_dir: _sass
   style: compressed
 permalink: '/:categories/:title/'
-paginate: 5
-paginate_path: '/page:num/'
 timezone: null
 plugins:
   - jekyll-paginate
@@ -159,6 +158,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-feed
   - jekyll-responsive-image
+  - jekyll-archives
 #  - jekyll-admin
 whitelist:
   - jekyll-paginate
@@ -196,6 +196,10 @@ responsive_image:
     - width: 800
     - width: 1400
 
+date_format: " %d.%B %Y"
+paginate: NULL
+
+
 
 defaults:
   - scope:
@@ -208,6 +212,7 @@ defaults:
       comments: false
       share: true
       related: true
+      show_date: true
   - scope:
       path: _pages
       type: pages

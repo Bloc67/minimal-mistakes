@@ -4,4 +4,5 @@ gemspec
 #gem "jekyll-admin"
 gem "jekyll-feed"
 gem "jekyll-responsive-image"
+gem "jekyll-archives"
 
