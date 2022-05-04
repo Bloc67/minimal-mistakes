@@ -159,7 +159,7 @@ plugins:
   - jekyll-feed
   - jekyll-responsive-image
   - jekyll-archives
-#  - jekyll-admin
+  - jekyll-admin
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap

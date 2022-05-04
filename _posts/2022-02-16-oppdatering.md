@@ -1,6 +1,6 @@
 ---
 title: Det gyldne snitt
-excerpt: Tre malerier som begynner å ta form, i alle disse har jeg brukt det gyldne snitt teorien hvor alt balanseres rundt ratioen 1:1.618. Dette er et matematisk forhold som ofte dukker opp i naturen og det er brukt i kunsthistorien av kjente kunstere. Det baserer seg på at mennesker skal ha en tilbøylighet til å - bevisst eller ubevisst - gjenkjenne denne balansen i design, og derfor synes et design "fungerer" bedre enn andre når det bruker dette prinsippet.
+excerpt: Tre malerier som begynner å ta form, i alle disse har jeg brukt det gyldne snitt teorien hvor alt balanseres rundt ratioen...
 
 layout: single
 tags: 

@@ -1,6 +1,6 @@
 ---
 title: Oppdateringer
-excerpt: Siste helgs økt hvor jeg startet på 2 nye bilder, begge fra eldre referansebilder og hvor jeg prøver en ny stil. Det vil si egentlig samme stil som før, men male prosessen er annerledes. Det ble også slutten på 2 motiv som ikke ble slik jeg tenkte.
+excerpt: Siste helgs økt hvor jeg startet på 2 nye bilder, begge fra eldre referansebilder og hvor jeg prøver en...
 
 layout: single
 tags: 
